@@ -1,0 +1,28 @@
+[project]
+name = "url-shortener"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Andrew Guest", email = "andrew@agueset.me" }
+]
+dependencies = [
+    "litestar>=2.3.2",
+    "gunicorn>=21.2.0",
+    "uvicorn>=0.24.0.post1",
+    "pydantic>=2.5.2",
+    "redis>=5.0.1",
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
