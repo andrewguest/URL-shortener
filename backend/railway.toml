@@ -1,0 +1,9 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "newrelic-admin run-program gunicorn"
+numReplicas = 1
+healthcheckPath = "/healthcheck"
+healthcheckTimeout = 100
+restartPolicyType = "never"
