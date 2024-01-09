@@ -37,7 +37,7 @@ fastbencode==0.0.5
 fastimport==0.9.14
 feedparser==6.0.8
 filelock==3.10.7
-fonttools==4.29.1
+fonttools==4.43.0
 fs==2.4.12
 gast==0.5.2
 gpg==1.16.0
